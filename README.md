@@ -1,6 +1,8 @@
-# Basic C++ coding examples
+ Basic C++ coding examples
+================================
 
-## 1 - Menu.cpp
+
+## [1 - Menu.cpp](https://github.com/dcoldeira/Cpp/blob/master/Functions.cpp)
 
 ### The idea of this little program is to show the basic of the Controlling Program Flow in modern Cpp.
 
