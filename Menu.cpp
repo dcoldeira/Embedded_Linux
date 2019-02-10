@@ -1,3 +1,5 @@
+//By David Coldeira
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -13,7 +15,7 @@ int main()
     double total{};
 
 
-   cout  << "Welcome to the menu program version 0.1 -  Please select from the menu below." << endl;
+   cout  << "Welcome to the Menu program  -  Please select from the menu below." << endl;
 
    do{
 
@@ -24,11 +26,11 @@ int main()
    cout << "L - Display the largest number" << endl;
    cout << "Q - Quit" << endl;
 
-   cout << "\nEnter your choice: ";
+   cout << "\nPleae enter your choice: ";
    cin >> selection ;
 
    if (selection == 'A' || selection == 'a'){
-        for (int i {}  ;  i <= num_items; ++i){
+        for (int i {};  i <= num_items; ++i){
            double data_item{};
            cout <<"Enter number:  ";
            cin >> data_item;
