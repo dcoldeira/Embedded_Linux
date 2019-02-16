@@ -83,6 +83,9 @@ void A_Function(vector<int> &data){
     int data_item{};
     cout <<"Enter the number to be added: ";
     cin>>data_item;
+        if (cin.fail()) {
+            cin.clear();
+}
 
     data.push_back(data_item);
     cout << "\n"<<data_item << " added" << endl;

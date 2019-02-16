@@ -22,4 +22,4 @@ The menu_options() function displays and controls a menu letting the user choose
 
 **This program does exactly as the Menu program above does but it has been programmed in terms of functions**
 
-This program is a bit more advanced than the Menu program as everything it performs is defined within functions, these functions are called from a Switch statement this time which controls the menu options inside the main() function calling all the other different functions. This program, as all the program here really, are only to show the programmer knowledges on particular topics in c++, in this case, functions.   
+This program is a bit more advanced than the Menu program as everything it performs is defined within functions, these functions are called from a Switch statement this time which controls the menu options inside the main() function calling all the other different functions and passing the values as references instead of passing them by values. This program, as all the program here really, are only to show the programmer knowledges on particular topics in c++, in this case, functions and passing by references.   
