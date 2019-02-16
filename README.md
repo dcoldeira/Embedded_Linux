@@ -20,6 +20,6 @@ The menu_options() function displays and controls a menu letting the user choose
 
 [3 - MenuFunctions.cpp](https://github.com/dcoldeira/Cpp/blob/master/MenuFunctions.cpp)
 
-**This program does exactly as the Menu program above but it has been programmed in terms of functions, everything now is a function **
+**This program does exactly as the Menu program above does but it has been programmed in terms of functions**
 
-This program is a bit more advanced than the Menu program as everything it performs is defined within functions, these functions are called from a Switch statement this time which controls the menu options inside the main() function.  
+This program is a bit more advanced than the Menu program as everything it performs is defined within functions, these functions are called from a Switch statement this time which controls the menu options inside the main() function calling all the other different functions. This program, as all the program here really, are only to show the programmer knowledges on particular topics in c++, in this case, functions.   
