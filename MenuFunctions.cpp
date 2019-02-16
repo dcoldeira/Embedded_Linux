@@ -1,7 +1,8 @@
 //By David Coldeira @dcoldeira
-# include <iostream>
-# include <vector>
-# include <string>
+
+#include <iostream>
+#include <vector>
+#include <string>
 #include <cctype>
 #include <algorithm>
 
