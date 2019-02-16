@@ -1,4 +1,4 @@
-//By David Coldeira
+//By David Coldeira @dcoldeira
 
 #include <iostream>
 #include <vector>
@@ -20,13 +20,13 @@ int main()
    do{
 
    cout << "\nP - Print numbers " << endl;
-   cout << "A - Add a numbers"  << endl;
-   cout << "D - Display mean of the numbers" << endl;
+   cout << "A - Add numbers"  << endl;
+   cout << "M - Display mean of the numbers" << endl;
    cout << "S - Display the smallest number" << endl;
    cout << "L - Display the largest number" << endl;
    cout << "Q - Quit" << endl;
 
-   cout << "\nPleae enter your choice: ";
+   cout << "\nPlease enter your choice: ";
    cin >> selection ;
 
    if (selection == 'A' || selection == 'a'){
@@ -44,7 +44,7 @@ int main()
        for (auto val : data)
              cout   << val << endl;
 
-   } else if (selection == 'D' || selection == 'd'){
+   } else if (selection == 'M' || selection == 'm'){
        for (auto val : data){
            total += val;
        }average_data = total / data.size();

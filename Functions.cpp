@@ -1,11 +1,11 @@
-//By David Coldeira
+//By David Coldeira @dcoldeira
 
 #include <iostream>
 
-//Prototypes that should be in a .hh file
-void menu_options();
-double calc_area_circle(double);
-double  calc_vol_cylinder(double radius, double height);
+//Prototypes
+//void menu_options();
+//double calc_area_circle();
+//double  calc_vol_cylinder();
 void area_circle();
 void volumen_cylinder();
 void area_square();
@@ -17,13 +17,7 @@ using namespace std;
 
 const double pi{3.14159};
 
-int main()
-{
-      for (;;){
-        menu_options();
-      }
-  return 0;
-}
+
 
 double calc_area_circle(double radius) {
   return  pi * radius*radius;
@@ -164,4 +158,12 @@ void volumen_cube(){
     cout << "The volume of a cube with edges "<< edge << " is " << calc_vol_cube(edge) << endl;
     cout << "========================================"<< endl;
 
+}
+
+int main()
+{
+      for (;;){
+        menu_options();
+      }
+  return 0;
 }

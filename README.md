@@ -1,4 +1,4 @@
- Basic C++ coding examples
+ Basic C++ programs
 ================================
 
 
@@ -17,3 +17,9 @@ The program displays 6 options allowing the user to choose from. Users can add n
 Two different functions are built individually per calculation passing arguments from one another to then pass final values to the main() function so that they can be printed.
 
 The menu_options() function displays and controls a menu letting the user choose what to calculate, this function also controls errors with 'if/else' statements (and cin.fail(), cin.clear()), making sure the right values are passed when compiling.   
+
+[3 - MenuFunctions.cpp](https://github.com/dcoldeira/Cpp/blob/master/MenuFunctions.cpp)
+
+**This program does exactly as the Menu program above but it has been programmed in terms of functions, everything now is a function **
+
+This program is a bit more advanced than the Menu program as everything it performs is defined within functions, these functions are called from a Switch statement this time which controls the menu options inside the main() function.  
