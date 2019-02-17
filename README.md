@@ -1,7 +1,8 @@
  Basic C++ programs -
 =====================
 
-*These C++ programs are basic **procedural** programming examples. They are not tutorials by any mean as they are only to show the basics and fundamentals in modern C++, they perform concepts like Variables and Constants, Vectors, Statements and Operators, Characters and Strings, Controlling Program Flow, and Functions, that is all the basics in C++ **procedural** programming that needs to be understood before properly touching Object Oriented Programming in C++.*
+
+**These C++ programs are basic *procedural* programming examples. They are not tutorials by any mean as they are only to show the basics and fundamentals in modern C++. They perform concepts like Variables and Constants, Vectors, Statements and Operators, Characters and Strings, Controlling Program Flow, and Functions - All the basics in C++ *procedural* programming that is needs to be understood before properly performing Object Oriented Programming in C++.**
 
 
 [1 - Menu.cpp](https://github.com/dcoldeira/Cpp/blob/master/Menu.cpp)
@@ -26,4 +27,4 @@ The menu_options() function displays and controls a menu letting the user choose
 
 This program is a somehow a bit more advanced than the Menu program as everything it performs is defined within functions, these functions are called from a Switch statement this time which controls the menu options inside the main() function calling all the other different functions and passing the values as references instead of passing them by values.
 
-This program features functions "passing by references".   
+This program features functions - "passing by references".   
