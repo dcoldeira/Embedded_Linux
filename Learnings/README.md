@@ -1,5 +1,16 @@
 ## My daily learnings progress will be documented here. 
 
+### Variables:
+
+Variables most be declared first 
+
+```C++
+int age; 
+string name; 
+char name [2];
+
+```
+
 ```C++
 // protos.cpp -- using prototypes and function calls
 #include <iostream>
