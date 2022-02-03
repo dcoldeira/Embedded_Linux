@@ -32,5 +32,28 @@ int main(){
 - Once a match,  all following cases are executed **until** a break is reached the switch complete  
 
 ```C++ 
+#include <iostream>
 
-``
+using namespace std;
+
+int main(){
+
+    enum Direction{
+        up, down,left,right
+    };
+
+    Direction heading {right};
+
+    switch (heading){
+    case left:
+        cout<<"going left"<<endl;
+        break;
+    case right:
+        cout<<"going right"<<endl;
+        break;
+    default:
+        cout<<"handles the rest"<< endl;
+
+    }
+}
+```
