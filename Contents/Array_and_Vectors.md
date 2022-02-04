@@ -39,7 +39,8 @@ vector<int> three_grades {98, 100, 99}
 vector <int> test_scores{99, 98, 40, 88};
 cout<<"First score at index zero: " << test_scores[0]<<endl; 
 
-//As they are objects, they can perform operations (access to their methods in their classes), so another way to access to them:
+//As they are objects, they can perform operations (access to their methods in their classes), 
+//so another way to access to them:
 cout<<"First score at index zero: " << test_scores.at(0)<<endl; 
 //'.at' not just calls the vector at that index but can also re-write it:
 test_scores.at(0) = 100; //assignment statement
