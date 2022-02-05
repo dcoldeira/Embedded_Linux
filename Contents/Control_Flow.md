@@ -39,7 +39,7 @@ using namespace std;
 int main(){
 
     enum Direction{
-        up, down,left,right
+        up, down, left, right
     };
 
     Direction heading {right};
@@ -53,7 +53,56 @@ int main(){
         break;
     default:
         cout<<"handles the rest"<< endl;
-
     }
 }
+```
+
+### Conditional operator - ?:
+
+`(cond_expr) ? expr1 : expre2`
+
+- **cond_expr** evaluates to a boolean expression. If **cond_expr** is true then the value of expr1 is returned, otherwise, if false expr2 is returned.  - E    asy to abuse!
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    // cout<<"Type a number to evaluate if it's even or odd"<<endl;
+    // int num {};
+    // cin>>num;
+    // cout<<"Number is "<<((num%2==0) ? "even!" : "odd")<<endl;
+
+//---------------0
+
+// Little program to find out the largest and smallest 
+//number given:
+    int num1{};
+    int num2{};
+
+    cout<< "Enter two numbers separated by a space"<<endl;
+    cin>>num1>>num2;
+
+    if (num1 != num2){
+        cout<<"The largest is "<< ((num1>num2)?num1 : num2)<<endl;
+        cout<<"and the smallest is "<<((num1<num2)?num1:num2)<<endl;
+    } else{
+        cout<<"Numbers are the same"<<endl;
+    }
+}
+```
+
+### Looping/Iteration/Repetition
+
+Loops allow the execution of an statement or block of statements repeatedly, looping constructor in C++ are:
+
+- *for* loop
+- *range-based for* loop
+- *while* loop
+- *do while* loop 
+
+#### For loop
+```C++
+
 ```
