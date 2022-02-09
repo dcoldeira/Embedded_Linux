@@ -1,23 +1,27 @@
-# Functions
 
-- Name
+# Basic programs featuring functions can be found [here..](Functions/README.md)
+
+### Functions have:
+
+- A name
 
 name of functions,same rules as variable.
 
-- Parameter list
+- A parameter list
 
 the variables passed into the function, their type must be specified. 
 
-- Return type
+- A return type
 
 Type of data that is returned from the function.
 
-- body
+- A body
 
 All statements in the {} that are executed when the function is called. 
-### [Some of the old stuff done](Old_Stuff)
 
-### Protos
+
+
+### Prototypes:
 
 ```C++
 // protos.cpp -- using prototypes and function calls
