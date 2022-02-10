@@ -60,3 +60,72 @@ void cheers(int);
     return x * x * x;
 }
 ```
+
+### Overloading 
+
+Functions overloading allows to create multiple functions with the same name, as long as they have different parameters
+
+```C++
+void printNumber(int a){
+    cout<<a; //effective only with integer arguments 
+}
+
+//overlapping it
+void printNumber(float a){
+    cout<<a; //now it will work for both integers and floats 
+}
+```
+
+### Recursion
+
+A recursive function in C++ is a function that call itself. A termination condition must be included to avoid recursion running indefinitely..
+
+```C++
+using namespace std;
+
+    int factorial(int n){
+        if (n==1){
+                return 1;
+        }else{
+            return n*factorial(n-1);
+        }
+    }
+
+int main(){
+    int num{};
+    cout<<"Enter number: "<<endl;
+    cin>>num;
+    cout<<"factorial of "<<num<<" is "<<factorial(num);
+    return 0;
+}
+``` 
+### Function Arguments
+
+- by value (default)
+
+This function passes the copy of the variable/s as argument:
+
+```C++
+void myFunction(int x){
+    x =100
+}
+int main(){
+    int var = 20;
+    myFunction(var);
+    cout<< var;
+}
+```
+
+- by reference
+
+Copies an argument's address into the formal parameter(i.e with pointers - Only used in cases like data type uses a lot of memory etc):
+```C++
+void myFunction(int *x){
+    *x =100
+}
+int main(){
+    int var = 20;
+    myFunction(&var);
+    cout<< var;
+}
+``` 
