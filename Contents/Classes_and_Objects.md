@@ -61,7 +61,6 @@ Used in inherence
 #include <bits/stdc++.h>
 using namespace std;
 
-
 class NiceClass{
 public:
     string niceString{};
@@ -80,5 +79,73 @@ int main(){
     return 0;
 }
 ```
+Header File Management:
 
-**This (the reserved keyboard pointer)**
+```C++
+// in NiceClass.h
+#ifndef NICECLASS_H
+#define NICECLASS_H
+#include<iostream>
+#include<NiceClass.h>
+using namespace std;
+
+class NiceClass
+{
+
+public:
+    string niceString;
+    int niceInt;
+    NiceClass(string nicestring, int niceint);
+    string msg();
+};
+
+#endif // NICECLASS_H
+```
+**Models -** Implementation goes in the ".cpp" file like:
+
+```C++
+//in NiceClass.cpp
+#include "NiceClass.h"
+
+NiceClass::NiceClass(string nicestring,int niceint)
+
+{
+    niceString = nicestring;
+    niceInt = niceint;
+
+}
+
+string NiceClass::msg()
+{
+    cout<<niceString<<" "<<niceInt<<endl;
+}
+```
+
+And main then: 
+```C++
+//main.cpp
+#include<iostream>
+#include <bits/stdc++.h>
+#include<NiceClass.h>
+using namespace std;
+
+//class NiceClass{
+//public:
+//    string niceString{};
+//    int niceInt{};
+//    NiceClass(string nicestring, int niceint){
+//        niceString = nicestring;
+//        niceInt = niceint;
+//    }
+//};
+
+int main(){
+
+    NiceClass niceObject("The nice string", 1);
+    niceObject.msg();
+
+    //cout<<niceObject.niceString<<" "<<niceObject.niceInt;
+    
+    return 0;
+}
+```
