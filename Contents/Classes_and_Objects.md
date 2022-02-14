@@ -101,7 +101,7 @@ public:
 
 #endif // NICECLASS_H
 ```
-**Models -** Implementation goes in the ".cpp" file like:
+**Models -** Implementation goes in the ".cpp" file, something  like:
 
 ```C++
 //in NiceClass.cpp
