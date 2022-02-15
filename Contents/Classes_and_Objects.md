@@ -79,7 +79,7 @@ int main(){
     return 0;
 }
 ```
-Header File Management:
+The reader file holds the function declarations (prototype) and variables declarations:
 
 ```C++
 // in NiceClass.h
@@ -101,7 +101,7 @@ public:
 
 #endif // NICECLASS_H
 ```
-**Models -** Implementation goes in the ".cpp" file, something  like:
+**Models -** Implementation and methods go in the sources ".cpp" file ("::" is called **binary scope resolution operator**):
 
 ```C++
 //in NiceClass.cpp
