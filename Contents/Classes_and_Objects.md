@@ -79,7 +79,7 @@ int main(){
     return 0;
 }
 ```
-The reader file holds the function declarations (prototype) and variables declarations:
+The header .h file holds the function declarations (prototype) and variables declarations:
 
 ```C++
 // in NiceClass.h
@@ -101,7 +101,7 @@ public:
 
 #endif // NICECLASS_H
 ```
-**Models -** Implementation and methods go in the sources ".cpp" file ("::" is called **binary scope resolution operator**):
+**Models -** Implementation and methods go in the source ".cpp" file ("::" is called **binary scope resolution operator**):
 
 ```C++
 //in NiceClass.cpp
