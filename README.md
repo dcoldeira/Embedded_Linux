@@ -5,6 +5,7 @@ These are some of the C++ notes and stuff I have been keeping and updating from 
 
 ### Basics
 
+- [cmake](/Contents/cmake.md)
 - [Program Structure](/Contents/Program_Structure.md)
 - [Variable and Constants](/Contents/Variable_and_Constants.md)
 - [Array and Vectors](/Contents/Array_and_Vectors.md) 
