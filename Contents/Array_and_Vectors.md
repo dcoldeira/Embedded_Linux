@@ -10,7 +10,7 @@ Compound data type/structure. A collection of elements of the same type that can
 using namespace std;
 
 int grades [] {12,45,76,2};
-cout<<the_array{0}<<endl; // prints 12
+cout<<grades[0]<<endl; // prints 12
 
 // Multidimensional arrays:
 int multy_dim_array [][]; //rows and column
