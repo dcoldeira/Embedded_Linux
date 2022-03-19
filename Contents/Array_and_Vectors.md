@@ -29,7 +29,7 @@ using namespace std;
 //initializing Vectors containing no elements
 vector <char> vowel;
 
-// initializing 3 vectors (elements) to 100
+// initializing 3 vectors (elements) to 100 .. i.e {100, 100, 100}
 vector <int> grades (3, 100); 
 
 // 3 vectors 98, 100, 99
