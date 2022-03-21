@@ -49,3 +49,33 @@ test_scores.at(0) = 100; //assignment statement
 test_scores.push_back(80); //adds the 80 element to the vector
 ```
 Elements must be of the same type as all the other vector elements
+
+### To cout a verctor:
+
+```C++
+    cout<<"";
+      for (const int& i : vectors_name) { // auto instead of const when is a char or String
+    cout << i << "  ";
+```
+An example:
+
+```C++
+#include<iostream>
+#include <vector>
+
+using namespace std;
+
+int main(){
+    
+    vector<int> grades{0};
+    grades.push_back(3);
+    
+    cout<<"";
+      for (const int& i : grades) {
+    cout << i << "  ";
+  }
+    
+    return 0;
+    }
+```
+[more here...](https://www.programiz.com/cpp-programming/vectors)
