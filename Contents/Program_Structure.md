@@ -20,3 +20,20 @@ semi-columns at the end of statements, parentheses, curlies, open and close quot
 - **Syntax** 
 
 i.e - Structure and the meaning of what we want to compile. 
+
+### Run a c++ program  from terminal
+
+```Bash
+g++ Program_Name.Cpp -o Program_Name
+```
+i.e: 
+
+```
+g++ wx.cpp  -o wx `wx-config --cppflags --libs`
+```
+
+to run,
+
+```Bash
+./Program_Name
+```
