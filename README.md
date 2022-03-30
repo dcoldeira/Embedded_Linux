@@ -13,7 +13,7 @@ These are some of the C++ notes and stuff I have been keeping and updating from 
 - [Functions](/Contents/Functions.md)
 - [Pointers and References](/Contents/Pointers_and_References.md)
 - [Classes and Objects](/Contents/Classes_and_Objects.md)
-- [Scope Resolution Operator0](/Contents/SROperator.md)
+- [Scope Resolution Operator](/Contents/SROperator.md)
 
 
 
