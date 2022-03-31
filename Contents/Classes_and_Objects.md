@@ -86,7 +86,6 @@ The header .h file holds the function declarations (prototype) and variables dec
 #ifndef NICECLASS_H
 #define NICECLASS_H
 #include<iostream>
-#include<NiceClass.h>
 using namespace std;
 
 class NiceClass
