@@ -148,3 +148,5 @@ int main(){
     return 0;
 }
 ```
+
+**Declarations always go in the header files and implementation go in the source files (.cpp), if any methods, these methods should go outside the curly brackets where the other variables are..**
