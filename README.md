@@ -19,7 +19,10 @@ These are some of the C++ notes and stuff I have been keeping and updating from 
 
 ### GUI Libraries
 
-- [Basics of Vulkan](/Contents/Vulkan.md)
-- [Dear ImGui, GLFW and Vulkan implemetation template](https://github.com/dcoldeira/ImGui_GLFW_Vulkan).
 - [GTKMM](Contents/gtkmm.md)
+- []()
 - [Qt](Contents/Qt.md)
+
+### Backends
+
+- [Basics of Vulkan](/Contents/Vulkan.md)
