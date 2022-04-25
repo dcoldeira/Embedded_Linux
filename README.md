@@ -20,7 +20,7 @@ These are some of the C++ notes and stuff I have been keeping and updating from 
 ### GUI Libraries
 
 - [GTKMM](Contents/gtkmm.md)
-- []()
+- [wxWidgets](Contents/)
 - [Qt](Contents/Qt.md)
 
 ### Backends
