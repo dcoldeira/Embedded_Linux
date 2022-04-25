@@ -21,7 +21,5 @@ These are some of the C++ notes and stuff I have been keeping and updating from 
 
 - [Basics of Vulkan](/Contents/Vulkan.md)
 - [Dear ImGui, GLFW and Vulkan implemetation template](https://github.com/dcoldeira/ImGui_GLFW_Vulkan).
-
-### QT
-
-- [Basics](Contents/Qt.md)
+- [GTKMM](Contents/gtkmm.md)
+- [Qt](Contents/Qt.md)
