@@ -17,8 +17,8 @@ These are some of the notes and stuff I have been keeping and updating from time
 
 #### GUI Libraries in C++
 
-- [GTKMM](cpp/gtkmm.md)
 - [wxWidgets](cpp/wxWidgets.md)
+- [GTKMM](cpp/gtkmm.md)
 - [Qt](cpp/Qt.md)
 
 #### Backends in C++
