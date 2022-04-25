@@ -1,28 +1,35 @@
-# C ++ Content of Knowledge 
+# **Embedded Linux System and C++** 
 
-These are some of the C++ notes and stuff I have been keeping and updating from time to time.
-
-
-### Basics
-
-- [CMakeList](/Contents/cmake.md)
-- [Program Structure](/Contents/Program_Structure.md)
-- [Variable and Constants](/Contents/Variable_and_Constants.md)
-- [Array and Vectors](/Contents/Array_and_Vectors.md) 
-- [Control Flow (the 'while', 'for' and 'if' statements)](/Contents/Control_Flow.md)
-- [Functions](/Contents/Functions.md)
-- [Pointers and References](/Contents/Pointers_and_References.md)
-- [Classes and Objects](/Contents/Classes_and_Objects.md)
-- [Scope Resolution Operator](/Contents/SROperator.md)
+These are some of the notes and stuff I have been keeping and updating from time to time.
 
 
+## **C++** 
 
-### GUI Libraries
+- [CMakeList](/cpp/cmake.md)
+- [Program Structure](/cpp/Program_Structure.md)
+- [Variable and Constants](/cpp/Variable_and_Constants.md)
+- [Array and Vectors](/cpp/Array_and_Vectors.md) 
+- [Control Flow (the 'while', 'for' and 'if' statements)](/cpp/Control_Flow.md)
+- [Functions](/cpp/Functions.md)
+- [Pointers and References](/cpp/Pointers_and_References.md)
+- [Classes and Objects](/cpp/Classes_and_Objects.md)
+- [Scope Resolution Operator](/cpp/SROperator.md)
 
-- [GTKMM](Contents/gtkmm.md)
-- [wxWidgets](Contents/)
-- [Qt](Contents/Qt.md)
+#### GUI Libraries in C++
 
-### Backends
+- [GTKMM](cpp/gtkmm.md)
+- [wxWidgets](cpp/wxWidgets.md)
+- [Qt](cpp/Qt.md)
 
-- [Basics of Vulkan](/Contents/Vulkan.md)
+#### Backends in C++
+
+- [Basics of Vulkan](/Vulkan.md)
+
+# Embedde Linux
+
+- [Main Components](/Main_Components.md)
+- [Bash](/embedded_linux/Bash.md)
+- [Qemu](/embedded_linux/Qemu.md)
+- [Yocto](/embedded_linux/Yocto.md)
+- [b2qt.md](/embedded_linux/b2qt.md)
+
