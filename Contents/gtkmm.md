@@ -16,5 +16,5 @@ g++ simple.cc -o simple `pkg-config gtkmm-3.0 --cflags --libs`
 
 Then look for the `./simple` file created and  to run the example.
 
-
+**version 4 is available but still not stable..**
 
