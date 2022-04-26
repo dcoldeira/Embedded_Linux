@@ -27,9 +27,9 @@ These are some of the notes and stuff I have been keeping and updating from time
 
 # Embedde Linux
 
-- [Main Components](/Main_Components.md)
-- [Bash](/embedded_linux/Bash.md)
-- [Qemu](/embedded_linux/Qemu.md)
-- [Yocto](/embedded_linux/Yocto.md)
-- [b2qt.md](/embedded_linux/b2qt.md)
+- [Main Components](/linux/Main_Components.md)
+- [Bash](/linux/Bash.md)
+- [Qemu](/linux/Qemu.md)
+- [Yocto](/linux/Yocto.md)
+- [b2qt.md](/linux/b2qt.md)
 
