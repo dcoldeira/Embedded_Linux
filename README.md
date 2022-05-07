@@ -1,6 +1,6 @@
 # **Embedded Linux System and C++** 
 
-These are some of the notes and stuff I have been keeping and updating from time to time.
+### This is an attempt to unify all the notes and old C++ stuff in only one repo.. 
 
 
 ## **C++** 
