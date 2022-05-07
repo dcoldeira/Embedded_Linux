@@ -1,6 +1,6 @@
 # **Embedded Linux System and C++** 
 
-### This is an attempt to unify all the notes and old C++ stuff in only one repo.. 
+### This is an attempt to unify all my personal notes and old C++ stuff in only one repo.. 
 
 
 ## **C++** 
