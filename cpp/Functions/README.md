@@ -4,7 +4,7 @@
 **These C++ programs are extremely basic *procedural* programming examples showing the basics and fundamentals in modern C++. They perform concepts like Variables and Constants, Vectors, Statements and Operators, Characters and Strings, Controlling Program Flow, and Functions**
 
 
-[1 - Menu.cpp](/Embedded_Linux/cpp/Functions/Menu.cpp)
+[1 - Menu.cpp](programs/Menu.cpp)
 
 **Controlling Flow**
 
@@ -12,7 +12,7 @@ The program performs 'vectors', 'for', 'if', 'if else', 'nested' and 'while' sta
 
 The program displays 6 options allowing the user to choose from. Users can add numbers, displays them, calculate the main of these numbers as well as printing the largest or smallest number from the list they create.
 
-[2 - Functions.cpp](/Contents/Functions/Functions.cpp)
+[2 - Functions.cpp](programs/Functions.cpp)
 
 **Functions calculating areas and volumes.**
 
@@ -20,7 +20,7 @@ Two different functions are built individually per calculation passing arguments
 
 The menu_options() function displays and controls a menu letting the user choose what to calculate, this function also controls errors with 'if/else' statements (and cin.fail(), cin.clear()), making sure the right values are passed when compiling.   
 
-[3 - MenuFunctions.cpp](/Contents/Functions/MenuFunctions.cpp)
+[3 - MenuFunctions.cpp](programs/MenuFunctions.cpp)
 
 **Menu program (as above) but performing with functions.**
 
