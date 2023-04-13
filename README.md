@@ -1,4 +1,4 @@
-# **Embedded Linux System and C++** 
+# **Embedded System, C++ and Linux** 
 
 ### This repository serves as a central location for all my personal notes and C++ projects, allowing me to keep track of my progress and showcase my skills.
 
