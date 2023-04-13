@@ -1,6 +1,3 @@
----
-title: "Memory Management in C++ for Embedded Systems"
----
 
 
 Memory management is a crucial aspect of programming, especially in embedded systems where resources are limited. In C++, the programmer is responsible for managing memory allocation and deallocation. Understanding how memory works and how to manage it efficiently is essential to avoid issues such as memory leaks and program crashes.

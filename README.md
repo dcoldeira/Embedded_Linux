@@ -28,22 +28,14 @@
 
 #### Embedded Systems
 
-- Memory management
-  - [Introduction to Memory Management](/embedded/Memory_Management.md)
-- Real-time operating systems (RTOS)
-  - [Introduction to RTOS](/embedded/RTOS.md)
-- Interrupts
-  - [Introduction to Interrupts](/embedded/Interrupts.md)
-- Communication protocols
-  - [Introduction to Communication Protocols](/embedded/Communication_Protocols.md)
-- Peripheral interface controllers (PIC)
-  - [Introduction to PIC](/embedded/PIC.md)
-- Debugging
-  - [Introduction to Debugging](/embedded/Debugging.md)
-- Power management
-  - [Introduction to Power Management](/embedded/Power_Management.md)
-- Embedded software design patterns
-  - [Introduction to Design Patterns](/embedded/Design_Patterns.md)
+- [Memory Management](/embedded/Memory_Management.md)
+- [Real-time operating systems (RTOS)](/embedded/RTOS.md)
+- [Interrupts](/embedded/Interrupts.md)
+- [Communication protocols](/embedded/Communication_Protocols.md)
+- [Peripheral interface controllers (PIC)](/embedded/PIC.md)
+- [Debugging](/embedded/Debugging.md)
+- [Power management](/embedded/Power_Management.md)
+- [Embedded software design patterns](/embedded/Design_Patterns.md)
 
 # Embedded Linux
 

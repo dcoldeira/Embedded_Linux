@@ -1,6 +1,3 @@
----
-title: Real-Time Operating Systems (RTOS) in C++ for Embedded Systems
----
 
 
 A Real-Time Operating System (RTOS) is an operating system designed for embedded systems that need to run applications in real-time. Unlike general-purpose operating systems, an RTOS provides a predictable and deterministic response to system events within strict timing constraints. In other words, an RTOS guarantees that a task will be executed within a specified amount of time, allowing embedded developers to build applications with hard real-time requirements.
